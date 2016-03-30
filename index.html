@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title> Stock Prompt </title>
+<link href="style.css" type="text/css" rel="stylesheet"/>
+</head>
+
+<body>
+<div id="main">
+<h1>Stock Prompt</h1>
+<p> Enter name of company below to receive stock information. </p>
+
+<form accept-charset="UTF-8" method="GET" action="http://finance.yahoo.com/q" name="quote" id="quote" class="get-quotes has-button">
+        <i class='magIcon'></i>
+        <input placeholder="Company Name" type="text" autocomplete="off" value="" name="s" id="txtQuotes" class="get-quotes-box">
+        <input type="hidden" autocomplete="off" value="1" name="ql" id="get_quote_logic_opt">
+        <input type="submit" class="get-quotes-button rapid-nf Bdrs"  value="Go" id="btnQuotes"> 
+    </form>
+	
+</div>
+</body>
+
+</html>
